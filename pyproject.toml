@@ -1,0 +1,22 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ksqldb"
+version = "1.0.0"
+description = "A simple Python wrapper for the KSQLdb REST API"
+readme = "README.md"
+authors = [{ name = "Victor Grosu"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["ksql", "ksqldb", "kafka"]
+dependencies = ["requests", "httpx[http2]"]
+requires-python = ">=3.7"
+
+    [project.urls]
+    repository    = "https://github.com/Erachter/ksqldb"
