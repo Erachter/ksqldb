@@ -13,14 +13,14 @@ A Python wrapper for the KSQLdb REST API
 ## Client configuration
 
 ```python
-from src.ksqldb import KSQLdbClient
+from ksqldb import KSQLdbClient
 
 client = KSQLdbClient('http://localhost:8088')
 ```
 It can also be configured with Basic authentication:
 
 ```python
-from src.ksqldb import KSQLdbClient
+from ksqldb import KSQLdbClient
 
 client = KSQLdbClient('http://localhost:8088', api_key="<KEY>", api_secret="<SECRET>")
 ```
